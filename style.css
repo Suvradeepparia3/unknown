@@ -1,0 +1,249 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /*cursor: none;*/
+}
+#cursor{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    transition: 0.1s;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+#sm{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+.nav{
+    background-color: burlywood;
+    text-align: center;
+    box-shadow: burlywood 0px 10px 60px;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Piedra', cursive;
+}
+.non-heading{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Courgette', cursive;
+}
+.ab-wo{
+    margin-top: 6px;
+    background: transparent;
+}
+#color{
+    color: red;
+}
+
+/* home */
+#aboutMe{
+    height: 100vh;
+}
+.back-color {
+    border-radius: 9px;
+    background-color: #f5deb3;
+    text-align: center;
+}
+.text{
+    padding-top: 120px;
+}
+.hello{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+#hand{
+    block-size: 60px;
+    margin-left: 10px;
+}
+.am{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.des{
+    font-family: 'Courgette', cursive;
+    margin-top: 90px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.typing{
+    font-family: 'Indie Flower', cursive;
+    font-size: 45px;
+    font-weight: bolder;
+    color: green;
+   
+}
+.typed-cursor{
+    font-size:  40px;
+    color: green;
+}
+.gif{
+    padding-top: 13%;
+    filter:grayscale(50%);
+    
+}
+
+/* contact */
+.cn{
+   margin-top: 50px;
+   padding: 0;
+   background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url('Forest.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
+.contact-title{
+    padding-top: 100px;
+    color: blanchedalmond;
+    transition: all 4s ease-in-out;
+    text-align: center;
+    font-family: 'Piedra', cursive;
+}
+.contact-form{
+    margin-top: 30px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+form .submit{
+    background-color: orangered;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 2px;
+    border: transparent;
+    margin-bottom: 30px;
+}
+form .submit:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+
+/*work section */
+ .work{
+    padding-top: 10px;
+ }
+ .block2{
+     background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url('back.jpg');
+     background-position: center;
+     background-size: cover;
+     height:470px;
+     border-radius: 9px;
+     box-shadow: 5px 15px 10px gray;
+ }
+ #card-image{
+    width: 27px;
+    height: 20px;
+}
+.card-title{
+    margin-top: 20px;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    width: 160px;
+}
+
+[data-scroll]{
+        transition: all 5s;
+}
+[data-scroll="in"]{
+    opacity: 1;
+    transform: rotate(0deg);
+}
+[data-scroll="out"]{
+    opacity: 0;
+    transform: rotate(1deg);
+}
+
+/*media quary */
+
+@media screen and (max-width: 940px){
+.hello{
+    font-size: 25px;
+    font-weight: 500;
+}
+.am{
+    font-size: 25px;
+}
+.typing, .typed-cursor{
+    font-size: 34px;
+}
+.des{
+    font-size: 17px;
+}
+#hand{
+    block-size: 40px;
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 990px){
+    .block2{
+        height: 870px;
+    }
+    .contact{
+        margin-top: 400px;
+    }
+}
+@media screen and (max-width: 765px){
+    .work{
+        margin-top: 400px;
+    }
+    .form-control{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 580px){
+    .block2{
+       height: 1355px; 
+    }
+    .contact{
+        margin-top: 850px;
+     }
+}
+@media screen and (max-width: 450px){
+    .hello{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .am{
+        font-size: 20px;
+    }
+    .text{
+        padding-top: 30px;
+    }
+    .des{
+        font-size: 15px;
+    }
+    #hand{
+        block-size: 30px;
+        margin-left: 10px;
+    }
+}
+ 
+
+
+
