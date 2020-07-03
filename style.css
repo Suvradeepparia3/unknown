@@ -208,7 +208,7 @@ form .submit:hover{
 }
 @media screen and (max-width: 765px){
     .work{
-        margin-top: 400px;
+        margin-top: 200px;
     }
     .form-control{
         width: 300px;
@@ -231,7 +231,7 @@ form .submit:hover{
         font-size: 20px;
     }
     .text{
-        padding-top: 90px;
+        padding-top: 100px;
     }
     .des{
         font-size: 15px;
