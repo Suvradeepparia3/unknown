@@ -231,7 +231,7 @@ form .submit:hover{
         font-size: 20px;
     }
     .text{
-        padding-top: 40px;
+        padding-top: 90px;
     }
     .des{
         font-size: 15px;
@@ -241,8 +241,8 @@ form .submit:hover{
         margin-left: 10px;
     }
     .typing, .typed-cursor{
-    font-size: 30px;
-}
+        font-size: 30px;
+    }
 }
  
 
